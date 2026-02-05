@@ -16,8 +16,8 @@ const games = [
     { name: "web-retro emulator", src: "games/webretro/index.html" },
     { name: "worlds hardest game", src: "games/worldshardestgame/index.html" },
     { name: "worlds hardest game 2", src: "games/worldshardestgame2/index.html" }
-	{ name: "Karlson", src: "games/Karlson/index.html" }
-];
+	{ name: "karlson", src: "games/Karlson/index.html" }
+;
 
 const gameListContainer = document.querySelector(".game-list");
 const fullscreenContainer = document.getElementById("fullscreen-container");
@@ -64,4 +64,5 @@ document.addEventListener("fullscreenchange", () => {
         fullscreenIframe.src = "";
     }
 });
+
 
