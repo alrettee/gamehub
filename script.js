@@ -1,5 +1,6 @@
 // Add a lot more game slots
 const games = [
+	{ name: "karlson", src: "games/Karlson/index.html" },
     { name: "granny", src: "games/Granny(JavaScript)/index.html" },
     { name: "basket random", src: "games/basketrandom/index.html" },
     { name: "bit-life", src: "games/bitlife/index.html" },
@@ -16,8 +17,7 @@ const games = [
     { name: "web-retro emulator", src: "games/webretro/index.html" },
     { name: "worlds hardest game", src: "games/worldshardestgame/index.html" },
     { name: "worlds hardest game 2", src: "games/worldshardestgame2/index.html" }
-	{ name: "karlson", src: "games/Karlson/index.html" }
-;
+];
 
 const gameListContainer = document.querySelector(".game-list");
 const fullscreenContainer = document.getElementById("fullscreen-container");
@@ -64,5 +64,6 @@ document.addEventListener("fullscreenchange", () => {
         fullscreenIframe.src = "";
     }
 });
+
 
 
