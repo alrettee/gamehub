@@ -1,5 +1,6 @@
 // Add a lot more game slots
 const games = [
+	{ name: "baldis basics", src: "games/baldis basics/index.html" },
 	{ name: "karlson", src: "games/Karlson/index.html" },
     { name: "granny", src: "games/Granny(JavaScript)/index.html" },
     { name: "basket random", src: "games/basketrandom/index.html" },
@@ -64,6 +65,7 @@ document.addEventListener("fullscreenchange", () => {
         fullscreenIframe.src = "";
     }
 });
+
 
 
 
